@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+
+# project specific
+init.js
+test/downloads/
+

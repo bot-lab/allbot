@@ -1,0 +1,48 @@
+{
+  "name": "chatbothub",
+  "version": "0.0.1",
+  "description": "Chatbuthub is library enables developers write one code for all messenger platforms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloverstudio/chatbothub.git"
+  },
+  "keywords": [
+    "Chatbot",
+    "messenger"
+  ],
+  "author": "Clover Studio Ltd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cloverstudio/chatbothub/issues"
+  },
+  "homepage": "https://github.com/cloverstudio/chatbothub#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^2.0.0",
+    "body-parser": "^1.17.2",
+    "botbuilder": "^3.9.1",
+    "crypto": "0.0.3",
+    "easyimage": "^2.1.0",
+    "express": "^4.15.4",
+    "expressjs": "^1.0.1",
+    "file-type": "^5.2.0",
+    "follow-redirects": "^1.2.4",
+    "mime-types": "^2.1.16",
+    "music-metadata": "^0.7.17",
+    "read-chunk": "^2.1.0",
+    "request": "^2.81.0",
+    "thumbler": "^1.1.1",
+    "twilio": "^3.6.3",
+    "url": "^0.11.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^3.5.0",
+    "nock": "^9.0.14"
+  }
+}
