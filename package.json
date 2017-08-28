@@ -1,25 +1,25 @@
 {
-  "name": "chatbothub",
-  "version": "0.0.1",
-  "description": "Chatbuthub is library enables developers write one code for all messenger platforms.",
-  "main": "index.js",
+  "name": "allbot",
+  "version": "v0.1.2",
+  "description": "Allbot is nodejs framework to create chatbot in 1 min for all messenger platforms.",
+  "main": "lib/AllBot.js",
   "scripts": {
     "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloverstudio/chatbothub.git"
+    "url": "git+https://github.com/bot-lab/allbot"
   },
   "keywords": [
     "Chatbot",
     "messenger"
   ],
-  "author": "Clover Studio Ltd",
+  "author": "Ken Yasue",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/cloverstudio/chatbothub/issues"
+    "url": "https://github.com/bot-lab/allbot/issues"
   },
-  "homepage": "https://github.com/cloverstudio/chatbothub#readme",
+  "homepage": "http://allbot.io",
   "dependencies": {
     "@line/bot-sdk": "^2.0.0",
     "body-parser": "^1.17.2",
