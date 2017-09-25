@@ -31,7 +31,8 @@ app.use(function(req, res, next) {
 var allBot = new AllBot(init);
 
 allBot.onMessage((sessionKey,message) => {
-
+  
+/*
   let text = "";
 
   if(message.content.type == Const.messageTypeText){
@@ -61,7 +62,7 @@ allBot.onMessage((sessionKey,message) => {
 
     });
 
-    /*
+  
     if(message.content.text == 'loc'){
 
       allBot.sendLocation(message.userIdentifier,{
@@ -83,7 +84,7 @@ allBot.onMessage((sessionKey,message) => {
   
     }
 
-    */
+
   }
 
   if(message.content.type == Const.messageTypeImage ||
@@ -120,7 +121,7 @@ allBot.onMessage((sessionKey,message) => {
     });
     
   }
-
+*/
 });
 
 

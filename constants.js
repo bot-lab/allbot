@@ -16,5 +16,8 @@ module["exports"] = {
     messageTypeSticker: 'sticker',
     messageTypeLocation: 'location',
     messageTypeVideo: 'video',
-    messageTypeUnknown: 'unknown'
+    messageTypeUnknown: 'unknown',
+
+    eventTypeMessage: 'message',
+    ecentTypeOpenChat: 'openchat'
 };

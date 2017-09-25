@@ -148,7 +148,6 @@ describe('Task WebHook Routes', () => {
                     done();
                 });
 
-
                 chai.request(app)
                     .post('/allbot/webhook')
                     .set({
