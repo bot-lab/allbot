@@ -19,5 +19,5 @@ module["exports"] = {
     messageTypeUnknown: 'unknown',
 
     eventTypeMessage: 'message',
-    ecentTypeOpenChat: 'openchat'
+    eventTypeOpenChat: 'openchat'
 };
