@@ -7,7 +7,7 @@ module["exports"] = {
     webhookReceiverURL: "/webhook",
     fileSenderURL: "/file",
     downloadPath: "./test/downloads",
-    loglevel:"debug",
+    loglevel:"info",
     service : [
         {
             identifier:'facebook-test',
