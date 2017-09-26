@@ -9,6 +9,7 @@ module["exports"] = {
     viber: "viber",
     twilio: "twilio",
     twitter: "twitter",
+    spika: "spika",
 
     messageTypeText: 'text',
     messageTypeImage: 'image',

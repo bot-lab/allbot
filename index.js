@@ -30,8 +30,16 @@ app.use(function(req, res, next) {
 
 var allBot = new AllBot(init);
 
+allBot.on("newchat",(eventObj) => {
+
+  console.log(eventObj);
+
+});
+
 allBot.onMessage((sessionKey,message) => {
   
+  console.log(message);
+
 /*
   let text = "";
 
