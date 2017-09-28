@@ -40,7 +40,6 @@ allBot.onMessage((sessionKey,message) => {
   
   console.log(message);
 
-/*
   let text = "";
 
   if(message.content.type == Const.messageTypeText){
@@ -54,7 +53,7 @@ allBot.onMessage((sessionKey,message) => {
 
     }).then((result) => {
 
-        console.log("message sent httpcode : " + result);
+        console.log("message sent httpcode : " + result.code);
         
     }).then((result) => {
       
@@ -70,7 +69,7 @@ allBot.onMessage((sessionKey,message) => {
 
     });
 
-  
+  /*
     if(message.content.text == 'loc'){
 
       allBot.sendLocation(message.userIdentifier,{
@@ -91,7 +90,7 @@ allBot.onMessage((sessionKey,message) => {
       });
   
     }
-
+    */
 
   }
 
@@ -129,7 +128,7 @@ allBot.onMessage((sessionKey,message) => {
     });
     
   }
-*/
+
 });
 
 
