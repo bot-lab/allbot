@@ -38,8 +38,6 @@ allBot.on("newchat",(eventObj) => {
 
 allBot.onMessage((sessionKey,message) => {
   
-  console.log(message);
-
   let text = "";
 
   if(message.content.type == Const.messageTypeText){
